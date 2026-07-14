@@ -1,0 +1,17 @@
+# Local, user-specific config — never commit (may reference your ids/settings)
+config.json
+
+# Secrets
+.env
+*.key
+
+# Generated artifacts from runs
+voiceover.mp3
+voiceover_script.txt
+avatars.json
+*.mp4
+*.mov
+*.webm
+
+# OS / editor cruft
+.DS_Store

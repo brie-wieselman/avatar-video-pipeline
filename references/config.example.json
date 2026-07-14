@@ -1,0 +1,24 @@
+{
+  "elevenlabs": {
+    "voice_id": "REPLACE_WITH_YOUR_ELEVENLABS_VOICE_ID",
+    "model_id": "eleven_multilingual_v2",
+    "output_format": "mp3_44100_128",
+    "voice_settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.0,
+      "use_speaker_boost": true
+    }
+  },
+  "heygen": {
+    "avatar_pool": [],
+    "avatar_group_id": null,
+    "dimension": { "width": 1080, "height": 1920 },
+    "background": { "type": "color", "value": "#ffffff" },
+    "avatar_style": "normal"
+  },
+  "titles": {
+    "enabled": false,
+    "template": "lower-third"
+  }
+}
