@@ -12,6 +12,15 @@ finished talking-avatar video.
 
 ## What it does
 
+```mermaid
+flowchart LR
+    S["Script"] --> TTS["ElevenLabs TTS<br/>voiceover.mp3"]
+    TTS --> R["HeyGen render<br/>lip-synced to audio"]
+    P["Avatar pool"] --> R
+    R --> T["Optional titles +<br/>overlays"]
+    T --> V["Final video"]
+```
+
 1. **Script** — write / refine the narration.
 2. **Voiceover** — ElevenLabs text-to-speech → `voiceover.mp3`.
 3. **Avatar pick** — randomize a HeyGen `avatar_id` from a pool (dynamic discovery or a configured list).
