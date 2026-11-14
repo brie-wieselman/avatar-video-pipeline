@@ -10,6 +10,12 @@ finished talking-avatar video.
 > `config.json` you create from the template). Do **not** commit your key or
 > your `config.json`.
 
+## Demo
+
+The helper scripts: reproducible avatar selection, and a TTS step that refuses to run without your own key in the environment.
+
+![avatar-video-pipeline helper scripts](docs/media/demo.gif)
+
 ## What it does
 
 ```mermaid
